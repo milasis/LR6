@@ -35,12 +35,12 @@
   ```
 ![screenshots](screenshots/2.jpg)
 
-![screenshots](screenshots/3.jpg)
 
  7. Получена история операций для каждой из веток:
   ```bash
   git log --oneline
   ```
+![screenshots](screenshots/3.jpg)
 
  8. Последние изменения просмотрены с помощью команды:
   ```bash
