@@ -21,12 +21,13 @@
   git config --global user.name "В3441 СамигуллинаКР"
   git config --global user.email "kamilasamigullina2022@gmail.com"
   ```
-![screenshots](screenshots/1.jpg)
 
  5. Личный удалённый репозиторий был клонирован на компьютер:
   ```bash
   git clone https://github.com/milasis/LR6
   ```
+
+![screenshots](screenshots/1.jpg)
 
  6. Новый файл был добавлен через интерфейс GitHub, изменения подтянуты в локальный репозиторий: 
   ```bash
