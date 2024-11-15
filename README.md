@@ -21,7 +21,7 @@
   git config --global user.name "В3441 СамигуллинаКР"
   git config --global user.email "camilasamigullina2022@gmail.com"
   ```
-![screenshots](screenshots/1.png)
+![screenshots](screenshots/1.jpg)
 
  5. Личный удалённый репозиторий был клонирован на компьютер:
   ```bash
@@ -32,7 +32,7 @@
   ```bash
   git pull
   ```
-![screenshots](screenshots/2.png)
+![screenshots](screenshots/2.jpg)
 
  7. Получена история операций для каждой из веток:
   ```bash
@@ -43,7 +43,7 @@
   ```bash
   git log -p 
   ```
-![screenshots](screenshots/3.png)
+![screenshots](screenshots/3.jpg)
 
  9. Ветка с изменениями была слита в ветку `master`:
   ```bash
@@ -70,14 +70,14 @@
   git log --oneline
   git revert ab812fa
   ```
-![screenshots](screenshots/4.png)
-![screenshots](screenshots/5.png)
+![screenshots](screenshots/4.jpg)
+![screenshots](screenshots/5.jpg)
 
  13. Создана отдельная ветка для оформления отчёта:
   ```bash
   git checkout -b otchet
   ```
-![screenshots](screenshots/6.png)
+![screenshots](screenshots/6.jpg)
 
  14. Отчёт оформлен в файле `README.md` с использованием markdown синтаксиса, cкриншоты консоли и сторонних программ добавлены в отдельную папку `screenshots`.
 
@@ -85,7 +85,7 @@
   ```bash
   git log --pretty=format:"%h - %ad - %an - %s" --date=short
   ```
-![screenshots](screenshots/7.png)
+![screenshots](screenshots/7.jpg)
 
  16. Локальные изменения отправлены в удалённый репозиторий на GitHub:
   ```bash
