@@ -34,6 +34,8 @@
   ```
 ![screenshots](screenshots/2.jpg)
 
+![screenshots](screenshots/3.jpg)
+
  7. Получена история операций для каждой из веток:
   ```bash
   git log --oneline
@@ -43,7 +45,7 @@
   ```bash
   git log -p 
   ```
-![screenshots](screenshots/3.jpg)
+![screenshots](screenshots/4.jpg)
 
  9. Ветка с изменениями была слита в ветку `master`:
   ```bash
@@ -64,20 +66,19 @@
   git add .
   git commit -m "Изменение №3"
   ```
+![screenshots](screenshots/5.jpg)
 
  12. Выбран нужный коммит, выполнен откат:
   ```bash
   git log --oneline
   git revert ab812fa
   ```
-![screenshots](screenshots/4.jpg)
-![screenshots](screenshots/5.jpg)
+![screenshots](screenshots/6.jpg)
 
  13. Создана отдельная ветка для оформления отчёта:
   ```bash
   git checkout -b otchet
   ```
-![screenshots](screenshots/6.jpg)
 
  14. Отчёт оформлен в файле `README.md` с использованием markdown синтаксиса, cкриншоты консоли и сторонних программ добавлены в отдельную папку `screenshots`.
 
