@@ -19,7 +19,7 @@
  4. Настроен Git, добавлено имя пользователя и email:
   ```bash
   git config --global user.name "В3441 СамигуллинаКР"
-  git config --global user.email "camilasamigullina2022@gmail.com"
+  git config --global user.email "kamilasamigullina2022@gmail.com"
   ```
 ![screenshots](screenshots/1.jpg)
 
